@@ -1,5 +1,5 @@
 .gridparent1{
-    border: 2px solid;
+    /* border: 2px solid; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -7,9 +7,10 @@
 }
 .child{
     background-color: yellow;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: center;
     font-size: 35px;
+    height: 80px;
 }
 .grid1{
     grid-column: 1/13;
